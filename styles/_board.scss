@@ -1,0 +1,10 @@
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	width: 55vh;
+	height: 55vh;
+	margin: -4vh auto 0vh auto;
+	max-width: 90%;
+	min-width: 35vh;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }

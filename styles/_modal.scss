@@ -1,0 +1,87 @@
+.portal {
+	display: block;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	transition: opacity .5s ease-in-out;
+	font-family: "Schoolbell";
+}
+
+.portal-content {
+	background-color: #00c823;
+	width: 80vh;
+	max-width: 90%;
+	height: 90vh;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 15px;
+	overflow: hidden;
+}
+  
+.portal-logo {
+	height: 20vh;
+	margin-bottom: -5%;
+}
+
+.game-mode {
+	line-height: 8vh;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	font-weight: bold;
+}
+  
+.play-button {
+	background-color: #0daec6;
+	height: 8vh;
+	float: none;
+	margin: 66vh auto 10px auto;
+	text-align: center;
+	cursor: pointer;
+	font-size: 3.5vh;
+	text-shadow: 1px 1px 0 black;
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.play-again-button {
+	background-color: #0daec6;
+	height: 8vh;
+	position: absolute;
+	left: 0;
+	margin-top: 66vh;
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+	font-size: 3.5vh;
+	line-height: 8vh;
+	cursor: pointer;
+}
+  
+.reset-button {
+	background-color: #a24e00;
+	height: 8vh;
+	position: absolute;
+	right: 0;
+	margin-top: 66vh;
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+	font-size: 3.5vh;
+	line-height: 8vh;
+	cursor: pointer;
+}
+
+.rick-morty-text {
+	font-size: 7.5vh;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 black;
+	color: #0daec6;
+}
+
+.choose-pic {
+	height: 30vh;
+	cursor: pointer;
+  }

@@ -1,0 +1,40 @@
+{
+  "name": "rick-rack-roe",
+  "version": "1.0.0",
+  "description": "A Rick and Morty themed tic-tac-toe game. Written in JavaScript. [Play the game here](https://jonkelley88.github.io/Rick-Rack-Roe/)",
+  "main": "script.js",
+  "scripts": {
+    "test": "node -r esm tests",
+    "start": "node -r esm server",
+    "watch": "parcel scripts/index.js styles/index.scss",
+    "build": "parcel build scripts/index.js styles/index.scss",
+    "dev": "nodemon -r esm -r dotenv/config server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonKelley88/Rick-Rack-Roe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonKelley88/Rick-Rack-Roe/issues"
+  },
+  "homepage": "https://github.com/JonKelley88/Rick-Rack-Roe#readme",
+  "dependencies": {
+    "baobab": "^2.5.2",
+    "baobab-react": "^3.0.0",
+    "classnames": "^2.2.6",
+    "dotenv": "^6.0.0",
+    "esm": "^3.0.82",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.17.10",
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4",
+    "parcel": "^1.9.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "signal-js": "^1.0.2",
+    "tape": "^4.9.1"
+  }
+}

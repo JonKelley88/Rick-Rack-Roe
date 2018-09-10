@@ -1,0 +1,41 @@
+.square {
+	background-color: #003e52;
+	border: 0.7vh solid #0dfc5e;
+	width: 33.33%;
+	height: 33%;
+	box-shadow: 0 0 10px 3px rgba(0, 178, 47, 0.5) inset;
+	cursor: pointer;
+}
+
+#square0,
+#square1,
+#square2 {
+	border-top: 0;
+}	
+
+#square2,
+#square5,
+#square8 {
+	border-right: 0;
+}
+
+#square6,
+#square7,
+#square8 {
+	border-bottom: 0;
+ 	height: 34%;
+}
+
+#square0,
+#square3,
+#square6 {
+	border-left: 0;
+}
+
+.icon {
+	width: 75%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 2vh;
+}
